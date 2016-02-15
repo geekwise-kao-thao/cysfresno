@@ -1,0 +1,46 @@
+html, body{
+    margin: 0 auto;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+body{
+    background-color: pink;
+    margin:0 auto;
+    padding:0;
+    text-align: center;
+    
+    
+}
+
+header{
+    background-color: #728BA8;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 10em;
+    
+}
+
+nav{
+    background-color: #728BA8;
+    margin:0;
+    padding: 2px;
+    font-size: 2em;
+    float: 
+
+}
+
+li{
+    margin:0;
+    display: inline-block;
+}
+
+main{
+    background-color: lightgreen;
+    
+}
+
+footer{
+    background-color: lightyellow;
+    
+}
