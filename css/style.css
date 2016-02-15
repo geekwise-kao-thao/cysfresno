@@ -144,7 +144,7 @@ main{
 
 footer{
     background-color: yellow;
-    margin-top:70px;
+    margin-top:50px;
     padding:0;
     width: 100%;
     height: 5%;
@@ -154,10 +154,29 @@ footer{
 }
 
 #footer_text_one{
-    float: left
+    float: left;
+    margin:0;
+    padding:0;
+    
+        
     
 }
 
 #footer_text_two{
     float: right;
+    margin:0;
+    padding: 0;
+    
+}
+
+#footer_text_one_margin{
+    margin-top: 2px;
+    margin-bottom: 20px;
+    margin-left: 2px;
+}
+
+#footer_text_two_margin{
+    margin-top:2px;
+    margin-bottom: 20px;
+    margin-right: 2px;
 }
