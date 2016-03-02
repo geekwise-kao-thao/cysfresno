@@ -118,7 +118,7 @@ main section div img{
     margin-left:3rem;
     font-family:sans-serif;
 }
-#hero_title{
+.hero_title{
     font-size:3rem;
     text-transform: capitalize;
     width:100%;
@@ -192,7 +192,7 @@ main section div img{
     margin:0 auto;
 }
 
-#news{
+.news{
     width:calc(100%/3);
     float:left;
     height:100%;
@@ -257,4 +257,44 @@ footer p{
     display: inline-block;
     float:right;
     opacity:.8;
+}
+
+/*about us page starts*/
+#about_us_hero{
+    height:90rem;
+}
+#about_us_hero div{
+    height:90%;
+    width:60%;
+    position:relative;
+    top:2rem;
+    float:left;
+    text-align: left;
+    overflow: hidden;
+    margin-left:3rem;
+    font-family:sans-serif;
+    
+}
+
+
+#about_us_news_about_location{
+    height:73rem;
+    width:71%;
+    border-radius:.5rem;
+    position:relative;
+    top:64rem;
+    box-shadow: 0 .05rem .05rem .05rem grey;
+    display: block;
+    margin:0 auto;
+}
+.p{
+    width:85%;
+    display: inline-block;
+    text-align: left;
+}
+
+#col_bx_1{
+    width:40%;
+    height:calc(100%/4);
+    
 }
