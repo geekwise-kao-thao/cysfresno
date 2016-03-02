@@ -55,8 +55,6 @@ main section div nav ul li{
     float:left;
 }
 
-
-
 .button{
     display:block;
     margin:0 auto;  
@@ -225,4 +223,33 @@ main section div img{
     text-align: left;
     font-size:2rem;
     opacity: .6;
+}
+footer{
+    height: 9rem;
+    width:71%;
+    display: inline-block;
+    position:relative;
+    top:10rem;
+}
+footer section{
+    display: block;
+    margin:0 auto;
+    height: 100%;
+}
+footer a{
+    font-size: 1.2rem;
+    display: inline-block;
+    float: left;
+    position: relative;
+    top:1rem;
+    left:1rem;
+    color:black;
+    opacity:.8;
+}
+footer p{
+    width:45%;
+    font-size: 1.2rem;
+    display: inline-block;
+    float:right;
+    opacity:.8;
 }
