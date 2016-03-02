@@ -96,6 +96,7 @@ main section div nav ul li{
     width:96rem;
     display:inline-block;
     border-radius:.5rem;
+    box-shadow: 0 .05rem .05rem .05rem grey;
 }
 
 main section div img{
@@ -103,18 +104,48 @@ main section div img{
 }
 
 #resource{
-    height:20rem;
+    height:22rem;
     width:72.5%;
+    display: block;
+    margin:0 auto;
+    position: relative;
+    top:7rem;
+    font-size:1.6rem;
+    border-radius:.7rem;
+    box-shadow: 0 .05rem .05rem .05rem grey;
 }
-#resource article:nth-child(1){
-    height:100%;
+.resource_article{
+    height:90%;
     width:calc(100%/3);
+    display:inline-block;
+    float:left;
 }
-#resource article:nth-child(2){
-    height:100%;
-    width:calc(100%/3);
+.resource_titles{
+    text-transform: capitalize;
+    font-size: 3rem;
+    display: inline-block;
+    width:90%;
+    height: auto;
+    text-align: left;
+    
 }
-#resource article:nth-child(3){
-    height:100%;
-    width:calc(100%/3);
+.cys{
+    text-transform: uppercase;
+}
+#address{
+    display: inline-block;
+    text-align: left;
+    width:90%
+}
+.resource_links{
+    text-decoration: none;
+    text-transform: capitalize;
+    display:inline-block;
+    width:90%;
+    height:auto;
+    text-align: left;
+    line-height: 2.3rem;
+}
+.margin_top{
+    margin-top:1.5rem;
 }
