@@ -64,6 +64,10 @@ main section div nav ul li{
     position:relative;
     bottom:23.5rem;
 }
+.active{
+    background-color:white;
+    color:grey;
+}
 
 .nav_bar{
     color:white;
