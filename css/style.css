@@ -32,7 +32,7 @@ main section{
 }
 main section div nav{
     height:3rem;
-    margin-top:1rem;
+    margin:0;
     padding: 0;
 }
 
@@ -75,11 +75,13 @@ main section div nav ul li{
     position:relative;
     top:0rem;
     display:inline-block;
-    height:90%;
-    width:90%;
+    height:95%;
+    width:95%;
+    border-radius:.5rem;
 }
 .nav_bar:hover{
-    background-color:grey;
+    background-color:white;
+    color:grey;
 }
 .position_top{
     position:relative;
