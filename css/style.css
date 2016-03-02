@@ -245,6 +245,7 @@ footer a{
     left:1rem;
     color:black;
     opacity:.8;
+    text-decoration: none;
 }
 footer p{
     width:45%;
