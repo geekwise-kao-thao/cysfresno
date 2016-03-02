@@ -102,4 +102,19 @@ main section div img{
     margin-top: .5rem;
 }
 
-
+#resource{
+    height:20rem;
+    width:72.5%;
+}
+#resource article:nth-child(1){
+    height:100%;
+    width:calc(100%/3);
+}
+#resource article:nth-child(2){
+    height:100%;
+    width:calc(100%/3);
+}
+#resource article:nth-child(3){
+    height:100%;
+    width:calc(100%/3);
+}
