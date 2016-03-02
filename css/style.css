@@ -263,8 +263,8 @@ footer p{
 #about_us_hero{
     height:90rem;
 }
-#about_us_hero div{
-    height:90%;
+#about_us_hero_div{
+    height:100%;
     width:60%;
     position:relative;
     top:2rem;
@@ -275,7 +275,37 @@ footer p{
     font-family:sans-serif;
     
 }
+.col_boxes{
+    width:36%;
+    height:calc(100%/4);
+    display: inline-block;
+    float:left;
+    font-size:1.1rem;
 
+}
+
+#box1{
+    font-size:2rem;
+    height: 4rem;
+    background:linear-gradient(lightgrey,white)
+}
+#box1 span{
+    position: relative;
+    top:.7rem;
+}
+.dotted{
+    border-bottom: dotted lightgrey;
+    padding-bottom: .5rem;
+}
+.p{
+    width:85%;
+    display: inline-block;
+    text-align: left;
+}
+.a{
+    width:100%;
+    height:auto;
+}
 
 #about_us_news_about_location{
     height:73rem;
@@ -287,14 +317,11 @@ footer p{
     display: block;
     margin:0 auto;
 }
-.p{
-    width:85%;
-    display: inline-block;
-    text-align: left;
+
+
+#about_us_footer{
+    position: relative;
+    top:65rem;
 }
 
-#col_bx_1{
-    width:40%;
-    height:calc(100%/4);
-    
-}
+
