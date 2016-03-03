@@ -261,7 +261,7 @@ footer p{
 
 /*about us page starts*/
 #about_us_hero{
-    height:110rem;
+    height:95rem;
 }
 #about_us_hero_div{
     height:100%;
@@ -311,13 +311,15 @@ footer p{
     display: inline-block;
     text-align: left;
 }
-.a{
-    width:100%;
-    height:auto;
+.black{
+    color:black;
 }
 
 .color_black{
     color:black;
+}
+#box4_font{
+    font-size:2.5rem;
 }
 
 #about_us_news_about_location{
@@ -325,7 +327,7 @@ footer p{
     width:71%;
     border-radius:.5rem;
     position:relative;
-    top:84rem;
+    top:69rem;
     box-shadow: 0 .05rem .05rem .05rem grey;
     display: block;
     margin:0 auto;
