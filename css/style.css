@@ -22,6 +22,12 @@ header{
     height: 35rem;
     padding: 0;
 }
+header div a:nth-child(1) img{
+        width:10%;
+    }
+    header div a:nth-child(2) img{
+        width:50%;
+    }
 
 main section{
     height:8.5rem;
@@ -377,6 +383,43 @@ footer p{
     line-height: 2.5rem
 }
 
-/*nothing for our team page*/
-/*nothin for resources page*/
+/*nothing added to our team page*/
+/*nothing added to resources page*/
+/*nothing added to services page*/
+
+/*media query starts*/
+
+/*first media query @ max-width 1120px to fix break at nav bar and paragraph next to hero picture */
+
+@media only screen and (max-width:1120px){
+    
+    .nav_bar{
+    font-size:1.05rem;
+}
+    main section div img{
+    margin-top: 2.5rem;
+    width:50%
+}
+    #hero_div{
+    height:90%;
+    width:38%;
+    position:relative;
+    top:3.9rem;
+    float:left;
+    text-align: left;
+    overflow: hidden;
+    margin-left:3rem;
+    font-family:sans-serif;
+}
+.hero_title{
+    font-size:2rem;
+}
+#hero_paragraph{
+    font-size:1.2rem;
+    line-height: 1.9rem;
+}
+    
+    
+    
+}
 
