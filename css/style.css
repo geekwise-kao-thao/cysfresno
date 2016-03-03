@@ -349,6 +349,9 @@ footer p{
 }
 /*about us page ends*/
 /*contact page starts*/
+#img_p{
+    height:41rem;
+}
 
 .line_height{
     line-height: 4rem;
@@ -356,6 +359,17 @@ footer p{
     margin:0;
 }
 
-
+.donate_p{
+    font-size:1.7rem;
+}
+.subtitle_font{
+    font-size:2rem;
+}
+.no_padding{
+    padding:0;
+    margin:0;
+    line-height: 2.5rem
+    
+}
 
 
