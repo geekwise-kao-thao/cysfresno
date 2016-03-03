@@ -35,15 +35,20 @@ main section div nav{
     height:3rem;
     margin:0;
     padding: 0;
+    position: relative;
+    top:0rem;
 }
 
 main section div nav ul{
     height:100%;
-    width:96rem;
+    width:72%;
     list-style: none;
     display: block;
     margin:0 auto;
     padding:0;
+    position: relative;
+    left:.5rem;
+    transform: translateX(0rem)
 }
 main section div nav ul li{
     font-size:1.3rem;
@@ -93,6 +98,7 @@ main section div nav ul li{
 .nav_bar:hover{
     background-color:white;
     color:grey;
+    cursor: pointer;
 }
 .position_top{
     position:relative;
