@@ -278,7 +278,7 @@ footer p{
 .col_boxes{
     margin-top:3rem;
     width:36%;
-    height:calc(100%/4);
+    height:auto;
     display: inline-block;
     float:left;
     font-size:1.1rem;
@@ -291,12 +291,16 @@ footer p{
 .boxes{
     font-size:2rem;
     height: 4rem;
+    margin:0;
+    padding: 0;
     background:linear-gradient(lightgrey,white);
     
 }
 #box1 span{
     position: relative;
     top:.7rem;
+    margin:0;
+    padding:0;
 }
 .dotted{
     border-bottom: dotted lightgrey;
@@ -310,9 +314,6 @@ footer p{
 .a{
     width:100%;
     height:auto;
-}
-.border_black{
-    border: solid .1rem black;
 }
 
 .color_black{
@@ -328,6 +329,7 @@ footer p{
     box-shadow: 0 .05rem .05rem .05rem grey;
     display: block;
     margin:0 auto;
+    overflow: hidden;
 }
 
 
