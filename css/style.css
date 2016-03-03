@@ -261,7 +261,7 @@ footer p{
 
 /*about us page starts*/
 #about_us_hero{
-    height:90rem;
+    height:110rem;
 }
 #about_us_hero_div{
     height:100%;
@@ -276,6 +276,7 @@ footer p{
     
 }
 .col_boxes{
+    margin-top:3rem;
     width:36%;
     height:calc(100%/4);
     display: inline-block;
@@ -283,11 +284,15 @@ footer p{
     font-size:1.1rem;
 
 }
+.col_boxes div{
+    border:.05rem solid grey;
+}
 
-#box1{
+.boxes{
     font-size:2rem;
     height: 4rem;
-    background:linear-gradient(lightgrey,white)
+    background:linear-gradient(lightgrey,white);
+    
 }
 #box1 span{
     position: relative;
@@ -306,13 +311,20 @@ footer p{
     width:100%;
     height:auto;
 }
+.border_black{
+    border: solid .1rem black;
+}
+
+.color_black{
+    color:black;
+}
 
 #about_us_news_about_location{
     height:73rem;
     width:71%;
     border-radius:.5rem;
     position:relative;
-    top:64rem;
+    top:84rem;
     box-shadow: 0 .05rem .05rem .05rem grey;
     display: block;
     margin:0 auto;
