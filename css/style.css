@@ -67,7 +67,15 @@ main section div nav ul li{
 .active{
     background-color:white;
     color:grey;
+    position:relative;
+    top:5rem;
+    transform: translateY(-.5rem);
 }
+.verticle_center{
+    position:relative;
+    top:.5rem;
+}
+
 
 .nav_bar{
     color:white;
