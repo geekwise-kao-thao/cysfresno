@@ -451,7 +451,7 @@ footer p{
     height:22rem;
     width:71%;
     position: relative;
-    top:6rem;
+    top:5rem;
     font-size:1.2rem;
 }
 .resource_article{
@@ -466,8 +466,57 @@ footer p{
     line-height: 2rem;
 }
     
+    /*new_about_location section*/
     
     
+#news_about_location{
+    height:73rem;
+    position:relative;
+    top:6.5rem;
+}
+#about{
+    width:calc(100%/3);
+    float:left;
+    height:100%;
+    line-height: 1.9rem;
+}
+#location{
+    width:calc(100%/3);
+    float:right;
+    height:100%;
+    line-height: 1.7rem;
+}
+
+.font_size{
+   font-size:1.16rem; 
+}
+#news_about_location p{
+    line-height: 1.8rem;
+}
+#news_about_location h3{
+    font-size:1.6rem;
+    opacity: .6;
+}
+    
+    /*footer*/
+    
+    
+footer{
+    height: 6rem;
+    position:relative;
+    top:6.5rem;
+}
+    footer a{
+        margin:0;
+        width:25%;
+    }
+footer p{
+    width:65%;
+    font-size: 1.1rem;
+    display: inline-block;
+    float:right;
+    opacity:.8;
+}
     
     
     
@@ -475,3 +524,4 @@ footer p{
     
 }
 
+/*start media query at max-width 912px*/
