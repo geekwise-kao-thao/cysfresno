@@ -553,12 +553,15 @@ footer p{
         width:85%;
     }
     .hero{
-        height:55rem;
+        height:53.5rem;
     }
     
     main section div img{
-    margin-top: .5rem;
-    width:97.5%;
+    margin-top: 1rem;
+    width:85%;
+    margin-left:0;
+    display:inline-block;
+    float:none;
 }
     #hero_div{
     height:40%;
@@ -576,7 +579,7 @@ footer p{
     
     
 #resource{
-    height:25rem;
+    height:35rem;
     position: relative;
     top:28rem;
     font-size:1.2rem;
@@ -585,29 +588,31 @@ footer p{
     height:calc(100%/3);
     width:100%;
     line-height: .5rem;
+    margin-top:.7rem;
 }
     .margin_top{
         margin:0;
     }
     .resource_article span{
         position:relative;
-        top:2rem;
+        top:.7rem;
         transform:translateX(.5rem);
     }
     
 .resource_titles{
     font-size: 1.8rem;
     height:100%;
-    width:50%;
+    width:40%;
     margin:0;
     float:left;
 }
     
 .resource_links{
-    line-height: 2rem;
-    width:50%;
-    
-    
+    font-size:1.3rem;
+    line-height: 1.6rem;
+    width:60%;
+    display:inline-block;
+    float:left;
 }
     
     /*new_about_location section*/
