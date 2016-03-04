@@ -500,7 +500,6 @@ footer p{
     
     /*footer*/
     
-    
 footer{
     height: 6rem;
     position:relative;
@@ -519,9 +518,13 @@ footer p{
 }
     
     
+}
+
+/*start media query at max-width 912px*/
+
+@media only screen and (max-width:912px){
+    
     
     
     
 }
-
-/*start media query at max-width 912px*/
