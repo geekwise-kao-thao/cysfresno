@@ -396,15 +396,42 @@ footer p{
     .nav_bar{
     font-size:1.05rem;
 }
+    #ul{
+        width:73.5%;
+    }
+    #ul li{
+        width:
+    }
+    #home{
+        width:70%;
+    }
+    #about_us{
+        width:90%;
+    }
+    #contact{
+        width:85%;
+    }
+    #donate{
+        width:80%;
+    }
+    #our_team{
+        width:95%;
+    }
+    #resources{
+        width:100%;
+    }
+    #services{
+        width:90%;
+    }
     main section div img{
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     width:50%
 }
     #hero_div{
     height:90%;
     width:38%;
     position:relative;
-    top:3.9rem;
+    top:2rem;
     float:left;
     text-align: left;
     overflow: hidden;
@@ -418,6 +445,31 @@ footer p{
     font-size:1.2rem;
     line-height: 1.9rem;
 }
+    
+    
+#resource{
+    height:22rem;
+    width:71%;
+    position: relative;
+    top:6rem;
+    font-size:1.2rem;
+}
+.resource_article{
+    height:100%;
+    line-height: 2rem;
+}
+.resource_titles{
+    font-size: 2rem;
+}
+    
+.resource_links{
+    line-height: 2rem;
+}
+    
+    
+    
+    
+    
     
     
     
