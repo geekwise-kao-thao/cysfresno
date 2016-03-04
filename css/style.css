@@ -54,7 +54,7 @@ main section div nav ul{
     padding:0;
     position: relative;
     left:.5rem;
-    transform: translateX(0rem)
+    transform: translateX(0rem);
 }
 main section div nav ul li{
     font-size:1.3rem;
@@ -500,6 +500,149 @@ footer p{
     
     /*footer*/
     
+footer{
+    height: 6rem;
+    position:relative;
+    top:6.5rem;
+}
+    footer a{
+        margin:0;
+        width:25%;
+    }
+footer p{
+    width:65%;
+    font-size: 1.1rem;
+    display: inline-block;
+    float:right;
+    opacity:.8;
+}
+    
+    
+}
+
+/*start media query at max-width 912px*/
+
+@media only screen and (max-width:926px){
+    
+    
+    #ul{
+        width:73%;
+    }
+    #ul li{
+        width:calc(98%/7);
+    }
+    #home{
+        width:85%;
+    }
+    #about_us{
+        width:85%;
+    }
+    #contact{
+        width:80%;
+    }
+    #donate{
+        width:80%;
+    }
+    #our_team{
+        width:85%;
+    }
+    #resources{
+        width:95%;
+    }
+    #services{
+        width:85%;
+    }
+    .hero{
+        height:55rem;
+    }
+    
+    main section div img{
+    margin-top: .5rem;
+    width:97.5%;
+}
+    #hero_div{
+    height:40%;
+    width:97%;
+    display:inline-block;
+    float:none;
+    margin-left:0;
+}
+.hero_title{
+    text-align:center;
+}
+#hero_paragraph{
+    line-height: 2.2rem;
+}
+    
+    
+#resource{
+    height:25rem;
+    position: relative;
+    top:28rem;
+    font-size:1.2rem;
+}
+.resource_article{
+    height:calc(100%/3);
+    width:100%;
+    line-height: .5rem;
+}
+    .margin_top{
+        margin:0;
+    }
+    .resource_article span{
+        position:relative;
+        top:2rem;
+        transform:translateX(.5rem);
+    }
+    
+.resource_titles{
+    font-size: 1.8rem;
+    height:100%;
+    width:50%;
+    margin:0;
+    float:left;
+}
+    
+.resource_links{
+    line-height: 2rem;
+    width:50%;
+    
+    
+}
+    
+    /*new_about_location section*/
+    
+    
+#news_about_location{
+    height:73rem;
+    position:relative;
+    top:36.5rem;
+}
+#about{
+    width:calc(100%/3);
+    float:left;
+    height:100%;
+    line-height: 1.9rem;
+}
+#location{
+    width:calc(100%/3);
+    float:right;
+    height:100%;
+    line-height: 1.7rem;
+}
+
+.font_size{
+   font-size:1.16rem; 
+}
+#news_about_location p{
+    line-height: 1.8rem;
+}
+#news_about_location h3{
+    font-size:1.6rem;
+    opacity: .6;
+}
+    
+    /*footer*/
     
 footer{
     height: 6rem;
@@ -521,7 +664,4 @@ footer p{
     
     
     
-    
 }
-
-/*start media query at max-width 912px*/
